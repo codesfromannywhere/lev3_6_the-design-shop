@@ -58,7 +58,7 @@ header {
 
 header nav {
     display: flex;
-justify-content: right;
+    justify-content: right;
 }
 
 header p {
@@ -75,7 +75,7 @@ header div span {
     height: 2px;
     width: 5vw;
     background-color: #323A45;
-    margin: 5px 5vw; 
+    margin: 5px 5vw;
 }
 
 /*====================================
@@ -200,11 +200,11 @@ footer span {
     font-family: 'Karla-Bd';
 }
 
-footer article div:nth-of-type(3) > p:nth-of-type(2) {
+footer article div:nth-of-type(3)>p:nth-of-type(2) {
     font-style: italic;
 }
 
 footer>p:nth-of-type(1) {
     font-family: 'Karla-Lg';
-        color:#848484;
+    color: #848484;
 }
