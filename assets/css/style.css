@@ -53,12 +53,12 @@ img:hover {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 3vh 0 3vh 5vw;
+    margin: 3vh 5vw 3vh 5vw;
 }
 
 header nav {
-    margin-right: 5vw;
+    display: flex;
+justify-content: right;
 }
 
 header p {
@@ -66,15 +66,16 @@ header p {
 }
 
 header a {
+
     margin-left: 3vw;
 }
 
 header div span {
-    display: block;
+    display: none;
     height: 2px;
     width: 5vw;
     background-color: #323A45;
-    margin: 5px 7vw; 
+    margin: 5px 5vw; 
 }
 
 /*====================================
